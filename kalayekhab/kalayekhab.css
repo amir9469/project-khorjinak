@@ -1,0 +1,349 @@
+.body{
+  direction: rtl;
+font-family: Parastoo;
+}
+/*Fonts */
+@font-face {
+  font-family:'Parastoo';
+  src: url('../font/Parastoo.eot') format('eot'),
+       url('../font/Parastoo.woff') format('woff'),
+       url('../font/Parastoo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Fonts */
+/*header*/
+
+#cont1 .row p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  justify-self: center;
+  width: 100%;
+}
+
+/* end header*/
+/*  form search*/
+#cont2 .row .col-12 .col-lg-3 button {
+  margin-top: 18px;
+  font-size: 11px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cont2 .row .col-12 .col-lg-3 button i {
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cont2 .row .col-12 .col-lg-3 #mypopaver {
+  display: none;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  border-radius: 2%;
+}
+
+#cont2 .row .col-12 .col-lg-5 input::placeholder {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#cont2 .row .col-12 .col-lg-5 button {
+  margin-top: -38px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cont2 .row .col-12 .col-lg-3 .div1 i {
+  font-size: 25px;
+}
+
+#cont2 .row .col-12 .col-lg-3 .div1 #label1, #cont2 .row .col-12 .col-lg-3 .div1 #label2 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#cont2 .row .col-12 .col-lg-3 .div1 #label2 {
+  color: red;
+}
+
+#cont2 .row .col-12 .col-lg-3 .div2 {
+  display: none;
+}
+
+#cont2 .row .col-12 .col-lg-3 .div2 #p1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: right;
+}
+
+/* end form search*/
+/*navbar*/
+#nav a {
+  font-size: 15px;
+  color: white;
+position: relative;
+left: 40px;
+}
+#nav a:hover {
+  background-color: lightblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  color: black;
+}
+
+.col-lg-3 {
+  margin-right: -30px;
+}
+.col-lg-3 .card .card-body {
+  height: 390px;
+}
+.col-lg-3 img {
+  width: 100%;
+  height: 253px;
+}
+.col-lg-3 p {
+  font-family: Parastoo;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.col-lg-3 a {
+  display: block;
+  color: black;
+  font-size: 14px;
+  margin-top: 4px;
+  font-family: Parastoo;
+}
+.col-lg-3 a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/*end navbar*/
+/*products*/
+#rowproducts .col-lg-2 .card .card-body:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: gainsboro;
+}
+#rowproducts img {
+  width: 150px;
+  height: 150px;
+}
+#rowproducts p{
+  font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+  #rowproducts img {
+    width: 300px;
+    height: 200px;
+  }
+}
+/*end products*/
+/*بخش ارسال ها*/
+#cardimg img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+
+#cardimg label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#cardimg p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: -10px;
+  margin-right: 5px;
+}
+
+/*پایان بخش ارسال ها*/
+/*فروشگاه اینترنتی خورجینک*/
+#cardbody h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cardbody p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/*پایان فروشگاه اینترنتی خورجینک*/
+/*راهنمای خرید*/
+#cardbody2 h5 {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cardbody2 a {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cardbody2 a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+#cardbody2 #link {
+  overflow: hidden;
+}
+
+#cardbody2 #link a {
+  display: inline;
+  font-size: 30px;
+}
+
+#cardbody2 #link a i {
+  margin-top: 30px;
+  transition: transform 0.5s ease;
+}
+
+#cardbody2 #link a i:hover {
+  transform: scale(1.5);
+}
+
+/*پایان راهنمای خرید*/
+/*footer*/
+#linkha label a {
+  color: white;
+}
+
+#linkha label a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#arrow a i {
+  font-size: 50px;
+}
+
+#arrow a i:hover {
+  color: red;
+}
+
+#back-top {
+  bottom: 30px;
+  right: 10px;
+  position: fixed;
+  z-index: 100;
+}
+
+#back-top a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out 0s;
+  width: 50px;
+}
+
+#back-top a i {
+  font-size: 55px;
+}
+
+#back-top a i:hover {
+  color: rgba(255, 0, 0, 0.863);
+}
+
+/*end footer*/
+/*# sourceMappingURL=pagefirst.css.map */
+
+/*# sourceMappingURL=kalayekhab.css.map */
+@media only screen and (min-width:1556px){
+  #Divbackground img{
+    width: 100%;
+  }
+  
+}
+@media only screen and (min-width:993px){
+  #Sublink1,#Sublink2,#Sublink3,#Sublink4,#Sublink5,#Sublink6,#Sublink7,#Sublink8,#Sublink9,#Sublink10,#Sublink11,#Sublink12,#Sublink13,#Sublink14,#Sublink15,#Sublink16,#Sublink17,#Sublink18,#Sublink19,#Sublink20,#Sublink21{
+    display: none;
+      }
+      #Link1,#Link2,#Link3,#Link4,#Link5,#Link6,#Link7,#Link8,#Link9,#Link10,#Link11,#Link12,#Link13,#Link14,#Link15,#Link16,#Link17,#Link18,#Link19,#Link20,#Link21{
+        display: none;
+      }
+}
+@media only screen and (max-width:992px){
+  #div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8{
+   display: none;
+  }
+  #Sublink1,#Sublink2,#Sublink3,#Sublink4,#Sublink5,#Sublink6,#Sublink7,#Sublink8,#Sublink9,#Sublink10,#Sublink11,#Sublink12,#Sublink13,#Sublink14,#Sublink15,#Sublink16,#Sublink17,#Sublink18,#Sublink19,#Sublink20,#Sublink21{
+    display: none;
+    list-style-type: none;
+      }
+      #Link1,#Link2,#Link3,#Link4,#Link5,#Link6,#Link7,#Link8,#Link9,#Link10,#Link11,#Link12,#Link13,#Link14,#Link15,#Link16,#Link17,#Link18,#Link19,#Link20,#Link21{
+        display: none;
+      }
+ 
+  #nav>:nth-child(1) li>a{
+    text-decoration: none;
+    font-family: Parastoo;
+    font-size: 14px;
+    
+  }
+  #nav>:nth-child(2) li>a{
+    text-decoration: none;
+    font-family: Parastoo;
+    
+    font-size: 14px;
+  }
+  #nav>:nth-child(3) li>a{
+    text-decoration: none;
+    font-family: Parastoo;
+   
+    font-size: 14px;
+  }
+  #nav>:nth-child(4) li>a{
+    text-decoration: none;
+    font-family: Parastoo;
+    
+    font-size: 14px;
+  }
+  #nav>:nth-child(5) li>a{
+    text-decoration: none;
+    font-family: Parastoo;
+    
+    font-size: 14px;
+  }
+  #nav>:nth-child(6) li>a{
+    text-decoration: none;
+    font-family: Parastoo;
+   
+    font-size: 14px;
+  }
+  #nav>:nth-child(7) li>a{
+    text-decoration: none;
+    font-family: Parastoo;
+    font-size: 14px;
+   
+  }
+  .fa{
+    color: tomato;
+    font-size: 11px;
+    position: relative;
+    left: 7px;
+    top: 2px;
+  }
+
+  #cardbody2>.col-12{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+  }
+
+}
+
+#div1,#div2,#div3,#div4,#div5,#div6,#div7{
+  position: relative;
+  left: 105px;
+}
