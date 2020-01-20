@@ -499,6 +499,12 @@ left: 40px;
   }
   
 }
+@media only screen and (max-width:1032px){
+  #nav a{
+    font-size: 14px;
+  }
+
+}
 @media only screen and (min-width:993px){
   #Sublink1,#Sublink2,#Sublink3,#Sublink4,#Sublink5,#Sublink6,#Sublink7,#Sublink8,#Sublink9,#Sublink10,#Sublink11,#Sublink12,#Sublink13,#Sublink14,#Sublink15,#Sublink16,#Sublink17,#Sublink18,#Sublink19,#Sublink20,#Sublink21{
     display: none;
@@ -561,8 +567,8 @@ left: 40px;
     font-size: 14px;
    
   }
-  .fa{
-    color: tomato;
+  #nav i{
+    color: red;
     font-size: 11px;
     position: relative;
     left: 7px;
